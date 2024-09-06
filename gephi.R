@@ -1,0 +1,5 @@
+write_graph(g, file = "gephi_file/graph.graphml", format = "graphml")
+write_graph(g_golden_era, file = "gephi_file/graph_g.graphml", format = "graphml")
+write_graph(g_silver_era, file = "gephi_file/graph_s.graphml", format = "graphml")
+write_graph(g_bronze_era, file = "gephi_file/graph_b.graphml", format = "graphml")
+write_graph(g_modern_era, file = "gephi_file/graph_m.graphml", format = "graphml")

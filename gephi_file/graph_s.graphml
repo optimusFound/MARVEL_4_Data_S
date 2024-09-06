@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_degree_size" for="node" attr.name="degree_size" attr.type="double"/>
+  <key id="v_eigen_size" for="node" attr.name="eigen_size" attr.type="double"/>
+  <key id="v_page_rank" for="node" attr.name="page_rank" attr.type="double"/>
+  <key id="v_closeness_centrality" for="node" attr.name="closeness_centrality" attr.type="double"/>
+  <key id="v_betweenness_centrality" for="node" attr.name="betweenness_centrality" attr.type="double"/>
+  <key id="v_clu" for="node" attr.name="clu" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">Al Avison</data>
+      <data key="v_id">Al Avison</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.00599540609745707</data>
+      <data key="v_page_rank">0.00797627829826465</data>
+      <data key="v_closeness_centrality">0.412587412587413</data>
+      <data key="v_betweenness_centrality">0.000240107830006012</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">Al Hartley</data>
+      <data key="v_id">Al Hartley</data>
+      <data key="v_degree_size">4</data>
+      <data key="v_eigen_size">0.117323055787054</data>
+      <data key="v_page_rank">0.00821658562639075</data>
+      <data key="v_closeness_centrality">0.366459627329193</data>
+      <data key="v_betweenness_centrality">0.00494099947757501</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">Allyn Brodsky</data>
+      <data key="v_id">Allyn Brodsky</data>
+      <data key="v_degree_size">9</data>
+      <data key="v_eigen_size">0.0239242348537571</data>
+      <data key="v_page_rank">0.00797880443914654</data>
+      <data key="v_closeness_centrality">0.433823529411765</data>
+      <data key="v_betweenness_centrality">0.00667912384062018</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">Archie Goodwin</data>
+      <data key="v_id">Archie Goodwin</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.026474029945803</data>
+      <data key="v_page_rank">0.00599924319445175</data>
+      <data key="v_closeness_centrality">0.421428571428571</data>
+      <data key="v_betweenness_centrality">0.0182275889131213</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Arnold Drake</data>
+      <data key="v_id">Arnold Drake</data>
+      <data key="v_degree_size">19</data>
+      <data key="v_eigen_size">0.0483215099501592</data>
+      <data key="v_page_rank">0.0192948977717504</data>
+      <data key="v_closeness_centrality">0.472</data>
+      <data key="v_betweenness_centrality">0.0625801301187255</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Artie Simek</data>
+      <data key="v_id">Artie Simek</data>
+      <data key="v_degree_size">8</data>
+      <data key="v_eigen_size">0.0336304625083578</data>
+      <data key="v_page_rank">0.0152067034959192</data>
+      <data key="v_closeness_centrality">0.395973154362416</data>
+      <data key="v_betweenness_centrality">0.0292495577963756</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Barry Windsor-Smith</data>
+      <data key="v_id">Barry Windsor-Smith</data>
+      <data key="v_degree_size">15</data>
+      <data key="v_eigen_size">0.0445539444312656</data>
+      <data key="v_page_rank">0.0166602799875046</data>
+      <data key="v_closeness_centrality">0.433823529411765</data>
+      <data key="v_betweenness_centrality">0.0220756208593734</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Bernie Wrightson</data>
+      <data key="v_id">Bernie Wrightson</data>
+      <data key="v_degree_size">3</data>
+      <data key="v_eigen_size">0.00506265565181059</data>
+      <data key="v_page_rank">0.00400964882112201</data>
+      <data key="v_closeness_centrality">0.380645161290323</data>
+      <data key="v_betweenness_centrality">0.000819795850933117</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">Bill Everett</data>
+      <data key="v_id">Bill Everett</data>
+      <data key="v_degree_size">13</data>
+      <data key="v_eigen_size">0.0277963219541722</data>
+      <data key="v_page_rank">0.0123942194792838</data>
+      <data key="v_closeness_centrality">0.443609022556391</data>
+      <data key="v_betweenness_centrality">0.0441473631956602</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">Charles Nicholas</data>
+      <data key="v_id">Charles Nicholas</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.00599540609745706</data>
+      <data key="v_page_rank">0.00797627829826465</data>
+      <data key="v_closeness_centrality">0.412587412587413</data>
+      <data key="v_betweenness_centrality">0.000240107830006012</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">Chris Claremont</data>
+      <data key="v_id">Chris Claremont</data>
+      <data key="v_degree_size">2</data>
+      <data key="v_eigen_size">0.00317642715991409</data>
+      <data key="v_page_rank">0.00363517360737998</data>
+      <data key="v_closeness_centrality">0.371069182389937</data>
+      <data key="v_betweenness_centrality">0.00244224187978225</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Dennis Oneil</data>
+      <data key="v_id">Dennis Oneil</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.0146723149069286</data>
+      <data key="v_page_rank">0.00697547841408994</data>
+      <data key="v_closeness_centrality">0.418439716312057</data>
+      <data key="v_betweenness_centrality">0.00411662446600381</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">Dick Ayers</data>
+      <data key="v_id">Dick Ayers</data>
+      <data key="v_degree_size">15</data>
+      <data key="v_eigen_size">0.266179966986542</data>
+      <data key="v_page_rank">0.0291482499170479</data>
+      <data key="v_closeness_centrality">0.433823529411765</data>
+      <data key="v_betweenness_centrality">0.074602668527682</data>
+      <data key="v_clu">4</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">Don Heck</data>
+      <data key="v_id">Don Heck</data>
+      <data key="v_degree_size">28</data>
+      <data key="v_eigen_size">0.272854341744585</data>
+      <data key="v_page_rank">0.0338895254773739</data>
+      <data key="v_closeness_centrality">0.51304347826087</data>
+      <data key="v_betweenness_centrality">0.169687634706495</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">Frank Giacoia</data>
+      <data key="v_id">Frank Giacoia</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0107947270317447</data>
+      <data key="v_page_rank">0.00695753738319795</data>
+      <data key="v_closeness_centrality">0.361963190184049</data>
+      <data key="v_betweenness_centrality">0.00758717786898612</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">Frank Springer</data>
+      <data key="v_id">Frank Springer</data>
+      <data key="v_degree_size">4</data>
+      <data key="v_eigen_size">0.0108162301595717</data>
+      <data key="v_page_rank">0.00835279378017575</data>
+      <data key="v_closeness_centrality">0.266968325791855</data>
+      <data key="v_betweenness_centrality">0</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">Gary Friedrich</data>
+      <data key="v_id">Gary Friedrich</data>
+      <data key="v_degree_size">25</data>
+      <data key="v_eigen_size">0.161487497235891</data>
+      <data key="v_page_rank">0.0400196967937784</data>
+      <data key="v_closeness_centrality">0.472</data>
+      <data key="v_betweenness_centrality">0.1162711465332</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Gene Colan</data>
+      <data key="v_id">Gene Colan</data>
+      <data key="v_degree_size">30</data>
+      <data key="v_eigen_size">0.523923166150331</data>
+      <data key="v_page_rank">0.0558591273845407</data>
+      <data key="v_closeness_centrality">0.526785714285714</data>
+      <data key="v_betweenness_centrality">0.157983897869253</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">George Tuska</data>
+      <data key="v_id">George Tuska</data>
+      <data key="v_degree_size">10</data>
+      <data key="v_eigen_size">0.127714347517631</data>
+      <data key="v_page_rank">0.0143868016607806</data>
+      <data key="v_closeness_centrality">0.380645161290323</data>
+      <data key="v_betweenness_centrality">0.00961877719182407</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">Gerry Conway</data>
+      <data key="v_id">Gerry Conway</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.0128824351106964</data>
+      <data key="v_page_rank">0.0075515133260988</data>
+      <data key="v_closeness_centrality">0.406896551724138</data>
+      <data key="v_betweenness_centrality">0.0112712540208228</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">Gil Kane</data>
+      <data key="v_id">Gil Kane</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.0663883318422297</data>
+      <data key="v_page_rank">0.00796110396486796</data>
+      <data key="v_closeness_centrality">0.345029239766082</data>
+      <data key="v_betweenness_centrality">0.00297650268427592</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">Hank Chapman</data>
+      <data key="v_id">Hank Chapman</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.00537629811440205</data>
+      <data key="v_page_rank">0.00570074387558816</data>
+      <data key="v_closeness_centrality">0.36875</data>
+      <data key="v_betweenness_centrality">0.00988839687449073</data>
+      <data key="v_clu">4</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">Herb Trimpe</data>
+      <data key="v_id">Herb Trimpe</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.0124508606507449</data>
+      <data key="v_page_rank">0.00787713068601164</data>
+      <data key="v_closeness_centrality">0.275700934579439</data>
+      <data key="v_betweenness_centrality">0</data>
+      <data key="v_clu">4</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">Jack Keller</data>
+      <data key="v_id">Jack Keller</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.129895749800475</data>
+      <data key="v_page_rank">0.011285033163005</data>
+      <data key="v_closeness_centrality">0.341040462427746</data>
+      <data key="v_betweenness_centrality">0</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">Jack Kirby</data>
+      <data key="v_id">Jack Kirby</data>
+      <data key="v_degree_size">22</data>
+      <data key="v_eigen_size">0.938740963332579</data>
+      <data key="v_page_rank">0.0807476222068975</data>
+      <data key="v_closeness_centrality">0.406896551724138</data>
+      <data key="v_betweenness_centrality">0.0195192751009536</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">Jerry Siegel</data>
+      <data key="v_id">Jerry Siegel</data>
+      <data key="v_degree_size">2</data>
+      <data key="v_eigen_size">0.00368706917324154</data>
+      <data key="v_page_rank">0.00349491697766769</data>
+      <data key="v_closeness_centrality">0.341040462427746</data>
+      <data key="v_betweenness_centrality">0.00103392613620551</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">Jim Mooney</data>
+      <data key="v_id">Jim Mooney</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0138280535731528</data>
+      <data key="v_page_rank">0.005430113607905</data>
+      <data key="v_closeness_centrality">0.4609375</data>
+      <data key="v_betweenness_centrality">0.0310385725477943</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">Jim Steranko</data>
+      <data key="v_id">Jim Steranko</data>
+      <data key="v_degree_size">2</data>
+      <data key="v_eigen_size">0.00294048098931165</data>
+      <data key="v_page_rank">0.00388752093069488</data>
+      <data key="v_closeness_centrality">0.331460674157303</data>
+      <data key="v_betweenness_centrality">0.0103851827113078</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">Joe Gaudioso</data>
+      <data key="v_id">Joe Gaudioso</data>
+      <data key="v_degree_size">4</data>
+      <data key="v_eigen_size">0.0135080583591237</data>
+      <data key="v_page_rank">0.00984438863735906</data>
+      <data key="v_closeness_centrality">0.266968325791855</data>
+      <data key="v_betweenness_centrality">0</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">Joe Maneely</data>
+      <data key="v_id">Joe Maneely</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0362383196436595</data>
+      <data key="v_page_rank">0.00606847453281206</data>
+      <data key="v_closeness_centrality">0.378205128205128</data>
+      <data key="v_betweenness_centrality">0.00483929668616986</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">John Buscema</data>
+      <data key="v_id">John Buscema</data>
+      <data key="v_degree_size">9</data>
+      <data key="v_eigen_size">0.0282873806368769</data>
+      <data key="v_page_rank">0.0108001144966607</data>
+      <data key="v_closeness_centrality">0.409722222222222</data>
+      <data key="v_betweenness_centrality">0.00510241948287881</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">John Romita Jr.</data>
+      <data key="v_id">John Romita Jr.</data>
+      <data key="v_degree_size">9</data>
+      <data key="v_eigen_size">0.0169752743117184</data>
+      <data key="v_page_rank">0.00896940087991737</data>
+      <data key="v_closeness_centrality">0.430656934306569</data>
+      <data key="v_betweenness_centrality">0.0196836275598457</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">John Romita Sr.</data>
+      <data key="v_id">John Romita Sr.</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0471533238838144</data>
+      <data key="v_page_rank">0.00612983938350137</data>
+      <data key="v_closeness_centrality">0.446969696969697</data>
+      <data key="v_betweenness_centrality">0.0163526703904587</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">John Verpoorten</data>
+      <data key="v_id">John Verpoorten</data>
+      <data key="v_degree_size">9</data>
+      <data key="v_eigen_size">0.0556302995300568</data>
+      <data key="v_page_rank">0.0147292748856307</data>
+      <data key="v_closeness_centrality">0.339080459770115</data>
+      <data key="v_betweenness_centrality">0.000777323202805377</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">Larry Lieber</data>
+      <data key="v_id">Larry Lieber</data>
+      <data key="v_degree_size">14</data>
+      <data key="v_eigen_size">0.438704699643074</data>
+      <data key="v_page_rank">0.0334580014236869</data>
+      <data key="v_closeness_centrality">0.424460431654676</data>
+      <data key="v_betweenness_centrality">0.0210236604408234</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">Len Wein</data>
+      <data key="v_id">Len Wein</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0134697769409539</data>
+      <data key="v_page_rank">0.00550539003027572</data>
+      <data key="v_closeness_centrality">0.453846153846154</data>
+      <data key="v_betweenness_centrality">0.0162917951268452</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">Linda Fite</data>
+      <data key="v_id">Linda Fite</data>
+      <data key="v_degree_size">3</data>
+      <data key="v_eigen_size">0.0033605557716544</data>
+      <data key="v_page_rank">0.0042911500492464</data>
+      <data key="v_closeness_centrality">0.380645161290323</data>
+      <data key="v_betweenness_centrality">0.00778999173366887</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Marie Severin</data>
+      <data key="v_id">Marie Severin</data>
+      <data key="v_degree_size">30</data>
+      <data key="v_eigen_size">0.259812973649141</data>
+      <data key="v_page_rank">0.0565330087835173</data>
+      <data key="v_closeness_centrality">0.468253968253968</data>
+      <data key="v_betweenness_centrality">0.100220724949314</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">Marv Wolfman</data>
+      <data key="v_id">Marv Wolfman</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0118879996847088</data>
+      <data key="v_page_rank">0.00577760720663637</data>
+      <data key="v_closeness_centrality">0.430656934306569</data>
+      <data key="v_betweenness_centrality">0.00778033848027091</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">Morrie Kuramoto</data>
+      <data key="v_id">Morrie Kuramoto</data>
+      <data key="v_degree_size">4</data>
+      <data key="v_eigen_size">0.00357701965267212</data>
+      <data key="v_page_rank">0.00492561222832678</data>
+      <data key="v_closeness_centrality">0.361963190184049</data>
+      <data key="v_betweenness_centrality">0.0412249319613434</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">Neal Adams</data>
+      <data key="v_id">Neal Adams</data>
+      <data key="v_degree_size">10</data>
+      <data key="v_eigen_size">0.0356152190412297</data>
+      <data key="v_page_rank">0.0149444003724417</data>
+      <data key="v_closeness_centrality">0.421428571428571</data>
+      <data key="v_betweenness_centrality">0.029738924470683</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">Otto Binder</data>
+      <data key="v_id">Otto Binder</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.00599540609745707</data>
+      <data key="v_page_rank">0.00797627829826464</data>
+      <data key="v_closeness_centrality">0.412587412587413</data>
+      <data key="v_betweenness_centrality">0.000240107830006012</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">Paul Reinman</data>
+      <data key="v_id">Paul Reinman</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.071241329092015</data>
+      <data key="v_page_rank">0.00815599647037192</data>
+      <data key="v_closeness_centrality">0.36875</data>
+      <data key="v_betweenness_centrality">0.00260149650806456</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">Robert Bernstein</data>
+      <data key="v_id">Robert Bernstein</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.15271707825036</data>
+      <data key="v_page_rank">0.0137986614742198</data>
+      <data key="v_closeness_centrality">0.275700934579439</data>
+      <data key="v_betweenness_centrality">0</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">Roy Thomas</data>
+      <data key="v_id">Roy Thomas</data>
+      <data key="v_degree_size">37</data>
+      <data key="v_eigen_size">0.298241361978831</data>
+      <data key="v_page_rank">0.0882417514502129</data>
+      <data key="v_closeness_centrality">0.483606557377049</data>
+      <data key="v_betweenness_centrality">0.163868341458288</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">Sam Grainger</data>
+      <data key="v_id">Sam Grainger</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0137585152173213</data>
+      <data key="v_page_rank">0.00549418975710991</data>
+      <data key="v_closeness_centrality">0.464566929133858</data>
+      <data key="v_betweenness_centrality">0.0161447988055251</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">Sam Rosen</data>
+      <data key="v_id">Sam Rosen</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.00537629811440206</data>
+      <data key="v_page_rank">0.00570074387558816</data>
+      <data key="v_closeness_centrality">0.36875</data>
+      <data key="v_betweenness_centrality">0.00988839687449073</data>
+      <data key="v_clu">4</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">Sol Brodsky</data>
+      <data key="v_id">Sol Brodsky</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0551308467760126</data>
+      <data key="v_page_rank">0.00622694834207604</data>
+      <data key="v_closeness_centrality">0.378205128205128</data>
+      <data key="v_betweenness_centrality">0.0363183932874979</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">Stan Goldberg</data>
+      <data key="v_id">Stan Goldberg</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.119578151124899</data>
+      <data key="v_page_rank">0.0113706428208527</data>
+      <data key="v_closeness_centrality">0.373417721518987</data>
+      <data key="v_betweenness_centrality">0.015613422216454</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">Stan Lee</data>
+      <data key="v_id">Stan Lee</data>
+      <data key="v_degree_size">25</data>
+      <data key="v_eigen_size">1</data>
+      <data key="v_page_rank">0.107321136574094</data>
+      <data key="v_closeness_centrality">0.404109589041096</data>
+      <data key="v_betweenness_centrality">0.0149596843117099</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">Steve Ditko</data>
+      <data key="v_id">Steve Ditko</data>
+      <data key="v_degree_size">13</data>
+      <data key="v_eigen_size">0.225263171479193</data>
+      <data key="v_page_rank">0.0225734919462703</data>
+      <data key="v_closeness_centrality">0.412587412587413</data>
+      <data key="v_betweenness_centrality">0.0289529388009533</data>
+      <data key="v_clu">2</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">Steve Skeates</data>
+      <data key="v_id">Steve Skeates</data>
+      <data key="v_degree_size">5</data>
+      <data key="v_eigen_size">0.0113913729437507</data>
+      <data key="v_page_rank">0.00496772254844112</data>
+      <data key="v_closeness_centrality">0.418439716312057</data>
+      <data key="v_betweenness_centrality">0.00281187778212368</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">Syd Shores</data>
+      <data key="v_id">Syd Shores</data>
+      <data key="v_degree_size">12</data>
+      <data key="v_eigen_size">0.0121165523449533</data>
+      <data key="v_page_rank">0.0111338707586603</data>
+      <data key="v_closeness_centrality">0.472</data>
+      <data key="v_betweenness_centrality">0.0383378220116387</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">Tom Sutton</data>
+      <data key="v_id">Tom Sutton</data>
+      <data key="v_degree_size">18</data>
+      <data key="v_eigen_size">0.154294455313637</data>
+      <data key="v_page_rank">0.0298697921992427</data>
+      <data key="v_closeness_centrality">0.415492957746479</data>
+      <data key="v_betweenness_centrality">0.0168101026284539</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">Vince Alascia</data>
+      <data key="v_id">Vince Alascia</data>
+      <data key="v_degree_size">7</data>
+      <data key="v_eigen_size">0.00599540609745706</data>
+      <data key="v_page_rank">0.00797627829826465</data>
+      <data key="v_closeness_centrality">0.412587412587413</data>
+      <data key="v_betweenness_centrality">0.000240107830006012</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">Wally Wood</data>
+      <data key="v_id">Wally Wood</data>
+      <data key="v_degree_size">13</data>
+      <data key="v_eigen_size">0.0339900471589665</data>
+      <data key="v_page_rank">0.0124694947837265</data>
+      <data key="v_closeness_centrality">0.468253968253968</data>
+      <data key="v_betweenness_centrality">0.0513556862015142</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">Werner Roth</data>
+      <data key="v_id">Werner Roth</data>
+      <data key="v_degree_size">8</data>
+      <data key="v_eigen_size">0.0193527336497324</data>
+      <data key="v_page_rank">0.0108043178660352</data>
+      <data key="v_closeness_centrality">0.375796178343949</data>
+      <data key="v_betweenness_centrality">0.0109427931749018</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">Sal Buscema</data>
+      <data key="v_id">Sal Buscema</data>
+      <data key="v_degree_size">6</data>
+      <data key="v_eigen_size">0.0305807456716033</data>
+      <data key="v_page_rank">0.0158595501769777</data>
+      <data key="v_closeness_centrality">0.351190476190476</data>
+      <data key="v_betweenness_centrality">0.00978859701993784</data>
+      <data key="v_clu">3</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">Vince Colletta</data>
+      <data key="v_id">Vince Colletta</data>
+      <data key="v_degree_size">4</data>
+      <data key="v_eigen_size">0.00737872871677181</data>
+      <data key="v_page_rank">0.00500955038497873</data>
+      <data key="v_closeness_centrality">0.375796178343949</data>
+      <data key="v_betweenness_centrality">0.00238332646780139</data>
+      <data key="v_clu">1</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">Mike Esposito</data>
+      <data key="v_id">Mike Esposito</data>
+      <data key="v_degree_size">3</data>
+      <data key="v_eigen_size">0.00676850706070415</data>
+      <data key="v_page_rank">0.00419989649540049</data>
+      <data key="v_closeness_centrality">0.353293413173653</data>
+      <data key="v_betweenness_centrality">0.000539733985087579</data>
+      <data key="v_clu">3</data>
+    </node>
+    <edge source="n0" target="n4">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n41">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n49">
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n2" target="n38">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n3" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n49">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n4" target="n30">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n33">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n4" target="n37">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n41">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n44">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n45">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n49">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n53">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n56">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n28">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n32">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n39">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n44">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n5" target="n49">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n57">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n6" target="n16">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n6" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n18">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n19">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n31">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n6" target="n35">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n37">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n44">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n6" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n55">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n6" target="n56">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n50">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n14">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n34">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n41">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n8" target="n49">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n58">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n9" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n9" target="n41">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n9" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n9" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n10" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n10" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n11" target="n38">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n22">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n12" target="n23">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n12" target="n24">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n12" target="n29">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n34">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n12" target="n44">
+      <data key="e_weight">15</data>
+    </edge>
+    <edge source="n12" target="n46">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n47">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n49">
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n18">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n13" target="n23">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n24">
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n13" target="n29">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n30">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n31">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n13" target="n34">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n13" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n13" target="n38">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n42">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n43">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n13" target="n44">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n13" target="n47">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n49">
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n13" target="n50">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n13" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n56">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n14" target="n34">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n14" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n14" target="n57">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n14" target="n58">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n27">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n22">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n16" target="n24">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n16" target="n26">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n30">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n16" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n32">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n33">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n16" target="n35">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n37">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n16" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n44">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n16" target="n45">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n46">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n49">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n16" target="n53">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n17" target="n24">
+      <data key="e_weight">20</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n32">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n33">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n17" target="n35">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n37">
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n17" target="n38">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n41">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n44">
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n17" target="n45">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n49">
+      <data key="e_weight">28</data>
+    </edge>
+    <edge source="n17" target="n50">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n51">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n53">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n17" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n24">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n18" target="n25">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n35">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n18" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n18" target="n49">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n19" target="n34">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n19" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n19" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n19" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n19" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n19" target="n59">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n20" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n20" target="n49">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n20" target="n56">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n21" target="n46">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n21" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n22" target="n46">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n22" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n23" target="n29">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n23" target="n42">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n23" target="n49">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n24" target="n29">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n24" target="n32">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n24" target="n34">
+      <data key="e_weight">22</data>
+    </edge>
+    <edge source="n24" target="n37">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n24" target="n42">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n24" target="n43">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n24" target="n44">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n24" target="n47">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n24" target="n49">
+      <data key="e_weight">65</data>
+    </edge>
+    <edge source="n24" target="n50">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n24" target="n53">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n24" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n33">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n27" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n28" target="n39">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n28" target="n44">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n28" target="n57">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n29" target="n42">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n29" target="n49">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n30" target="n33">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n30" target="n37">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n30" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n30" target="n44">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n30" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n31" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n31" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n31" target="n44">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n31" target="n56">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n32" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n32" target="n49">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n33" target="n37">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n33" target="n44">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n33" target="n49">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n33" target="n53">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n34" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n34" target="n42">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n34" target="n43">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n34" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n34" target="n49">
+      <data key="e_weight">21</data>
+    </edge>
+    <edge source="n34" target="n50">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n34" target="n58">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n34" target="n59">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n35" target="n37">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n35" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n36" target="n40">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n36" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n36" target="n56">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n38">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n40">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n37" target="n44">
+      <data key="e_weight">20</data>
+    </edge>
+    <edge source="n37" target="n45">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n49">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n37" target="n50">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n51">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n53">
+      <data key="e_weight">10</data>
+    </edge>
+    <edge source="n37" target="n55">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n37" target="n57">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n37" target="n59">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n38" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n39" target="n44">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n39" target="n57">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n40" target="n44">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n40" target="n56">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n41" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n41" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n42" target="n49">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n42" target="n50">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n43" target="n47">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n43" target="n49">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n43" target="n50">
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n44" target="n45">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n44" target="n49">
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n44" target="n52">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n44" target="n53">
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n44" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n44" target="n56">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n44" target="n57">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n44" target="n58">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n45" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n46" target="n48">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n47" target="n49">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n47" target="n50">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n48" target="n49">
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n49" target="n50">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n49" target="n53">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n50" target="n51">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n50" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n50" target="n55">
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n51" target="n53">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n51" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n52" target="n54">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n52" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n53" target="n55">
+      <data key="e_weight">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,46 @@
+/* style.css */
+
+slides > slide.current {
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+
+.ioslides-slide h1,
+.ioslides-slide h2,
+.ioslides-slide h3,
+.ioslides-slide p {
+  margin: 0;
+  padding: 0;
+}
+
+.ioslides-slide {
+  padding: 20px;
+}
+
+slides > slide:not(.nobackground):after {
+    font-size: 12pt;
+    content: attr(data-slide-num) "/" attr(data-total-slides);
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    line-height: 1.9;
+    visibility: collapse;
+}
+
+.black-slide {
+  background-color: #2e2d2d !important;
+  color: #2e2d2d !important;
+  border-radius: 5;
+}
+
+.trasp-slide {
+  background-color: #white !important;
+  color: #white !important;
+  border-radius: 5;
+}
+
+
+.black-slide h1, .black-slide h2, .black-slide h3, .black-slide p {
+  color: #ffffff !important;
+}

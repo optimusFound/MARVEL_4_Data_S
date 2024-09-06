@@ -776,7 +776,7 @@ top_centrality <- node_data |>
 
 **Mark Bagley** è l'artista che vanta il maggior numero di pubblicazioni con artisti differenti
 
-**Brian Michael Bendis** si distingue per aver pubblicato frequentemente con artisti di grande rilevanza, come evidenziato dalle sue alte centralità di Eigen e PageRank.
+**Brian Michael Bendis** si distingue per aver pubblicato frequentemente con artisti di grande rilevanza, come evidenziato dalle sue alte centralità di Eigenvector Centrality  e PageRank.
 
 **Christopher Eliopoulos**, **Giada Perissinotto**, **Howard Wong**, **Jean-David Morvan**, **Lanna Souvanny**, **Luca Barbieri**, **Justice Wong** e **Philippe Bouchet** sono tra gli artisti più centrali in termini di potenziale influenza su un ampio numero di colleghi, secondo la Closeness Centrality.
 
@@ -877,7 +877,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Golden Age"
   ) |>
@@ -902,7 +902,7 @@ highlighted_table |>
 
 **Alex Schomburg** e **Stan Lee** sono i più collaborativi, hanno pubblicato insieme al 54.5% del totale degli artisti. La media delle collaborazioni si attesta al 12%.
 
-**Syd Shores** il maggiore in Eigen Centrality
+**Syd Shores** il maggiore in Eigenvector Centrality
 
 **Stan Lee** il migliore per tutte le altre
 
@@ -934,7 +934,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Golden Age"
   ) |>
@@ -1093,7 +1093,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Silver Age"
   ) |>
@@ -1118,7 +1118,7 @@ highlighted_table |>
 
 **Roy Thomas** più collaborativo, ha pubblicato insieme al 61.7% del totale degli artisti. La media delle collaborazioni si attesta al 16.3%.
 
-**Stan Lee** il maggiore in EigenValue e PageRank
+**Stan Lee** il maggiore in Eigenvector e PageRank
 
 **Gene Colan** il migliore per Closeness
 
@@ -1153,7 +1153,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Silver Age"
   ) |>
@@ -1360,7 +1360,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Bronze Age"
   ) |>
@@ -1385,7 +1385,7 @@ highlighted_table |>
 
 **Ron Wilson** più collaborativo, ha pubblicato insieme al 36% del totale degli artisti. La media delle pubblicazioni si attesta al 5,8%. Inoltre è il migliore per Closeness
 
-**Gil Kane** il maggiore in EigenValue e PageRank
+**Gil Kane** il maggiore in Eigenvector e PageRank
 
 **Fred Hembeck** il migliore per Betweeness
 
@@ -1417,7 +1417,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Bronze Age"
   ) |>
@@ -1635,7 +1635,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Modern Age"
   ) |>
@@ -1690,7 +1690,7 @@ highlighted_table |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Degree", "Cluster", "Eigen", "PageRank", "Closeness", "Betweeness"),
+    col.names = c("", "Degree", "Cluster", "Eigenvector", "PageRank", "Closeness", "Betweeness"),
     align = c('l', 'c', 'c', 'c', 'c'),
     caption = "Artisti più importanti nella Modern Age"
   ) |>

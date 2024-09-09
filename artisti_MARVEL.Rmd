@@ -677,7 +677,7 @@ top_centrality <- node_data |>
 ```
 
 ::: {style="text-align: center;"}
-<figure><img src="Final_works_images/full_nodes.svg" alt="Collaborazioni tra artisti" style="max-width: 60%; height: 30%;"/></figure>
+<figure><img src="Final_works_images/full_nodes.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
 :::
 
 ## In tutta la storia
@@ -793,7 +793,7 @@ Facciamo un passo indietro nel tempo e chiediamoci: chi erano i protagonisti del
 **1938-1956**
 
 ::: {style="text-align: center;"}
-<figure><img src="Final_works_images/golden.svg" alt="Collaborazioni tra artisti" style="max-width: 60%; height: 30%;"/></figure>
+<figure><img src="Final_works_images/golden.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
 :::
 
 ```{r}
@@ -1008,7 +1008,7 @@ Alex Schomburg, Jack Kirby, Ray Gill, **Stan Lee** e Syd Shores sono i maggiori 
 **1956-1970**
 
 ::: {style="text-align: center;"}
-<figure><img src="Final_works_images/silver.svg" alt="Collaborazioni tra artisti" style="max-width: 60%; height: 30%;"/></figure>
+<figure><img src="Final_works_images/silver.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
 :::
 
 ```{r}
@@ -1276,7 +1276,7 @@ ggraph(sub_g_largest_component, layout = layout) +
 **1970-1985**
 
 ::: {style="text-align: center;"}
-<figure><img src="Final_works_images/bronze.svg" alt="Collaborazioni tra artisti" style="max-width: 60%; height: 30%;"/></figure>
+<figure><img src="Final_works_images/bronze.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
 :::
 
 ```{r}
@@ -1540,7 +1540,7 @@ ggraph(sub_g_largest_component, layout = layout) +
 **1970-1985**
 
 ::: {style="text-align: center;"}
-<figure><img src="Final_works_images/modern.svg" alt="Collaborazioni tra artisti" style="max-width: 60%; height: 30%;"/></figure>
+<figure><img src="Final_works_images/modern.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
 :::
 
 ```{r}

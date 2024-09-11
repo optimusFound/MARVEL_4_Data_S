@@ -127,7 +127,7 @@ Il dataset è composto da:
 
 -   *1269* cover artist
 
-I dati coprono un lasso di tempo di oltre 85 anni di storia, dal 31 agosto 1939 al 30 ottobre 2024. [Include anche le pubblicazioni in programma]
+I dati coprono un lasso di tempo di oltre 85 anni di storia, dal 31 agosto 1939 al 30 ottobre 2024 (Include anche le pubblicazioni in programma).
 
 ## Cos'è interessante chiedersi?
 
@@ -1537,7 +1537,7 @@ ggraph(sub_g_largest_component, layout = layout) +
 
 ## MODERN AGE {.black-slide}
 
-**1970-1985**
+**1985-...**
 
 ::: {style="text-align: center;"}
 <figure><img src="Final_works_images/modern.svg" alt="Collaborazioni tra artisti" style="max-width: 60%;"/></figure>
@@ -1819,6 +1819,18 @@ V(sub_g_largest_component)$importance_cluster<-clus$membership
 V(sub_g_largest_component)$importance_cluster <- clus$membership
 
 centrality <- eigen_centrality(sub_g_largest_component)$vector
+page <- page_rank(sub_g_largest_component)$vector
+bet <- betweenness(sub_g_largest_component)
+clos <- closeness(sub_g_largest_component)
+
+stats <- tibble(
+  Artista= V(sub_g_largest_component)$name,
+  centrality = centrality,
+  page= page,
+  bet= bet,
+  clos= clos,
+)
+
 cluster_means <- tapply(centrality[V(sub_g_largest_component)$importance_cluster + 1], 
                         V(sub_g_largest_component)$importance_cluster, mean)
 
@@ -1831,17 +1843,22 @@ In conclusione
 
 ```{r}
 important_collabs <- read.csv("data/important_collabs.csv")
+
+important_collabs <- important_collabs |>
+  left_join(stats, by=c("Artista")) |>
+  na.omit()
+  
 important_collabs <- important_collabs |>
   left_join(node_data, by=c("Artista" = "id")) |>
   mutate(active_years= as.numeric(last_pub)-as.numeric(first_pub)) |>
-  select(Artista, Era, Collaborazioni, first_pub, last_pub)
+  select(Artista, Collaborazioni, centrality, page, bet, clos, first_pub)
 
 important_collabs |>
-  filter(Collaborazioni >= 10) |>
+  arrange(desc(centrality)) |>
   knitr::kable(
     format = "html",
     escape = FALSE,
-    col.names = c("", "Age", "Collaborazioni", "Prima pubblicazione", "Ultima pubblicazione"),
+    col.names = c("", "Collaborazioni", "Eigenvector", "PageRank", "Betweenness", "Closeness", "Prima Pubblicazione"),
     align = c('l', 'c', 'c', 'c', 'c', 'c'),
     caption = "Top Artisti"
   ) |>
@@ -1857,9 +1874,9 @@ important_collabs |>
 ```{r, include=FALSE}
 artists %>%
   filter(
-    "Gerry Conway" == Writers |
-    "Gerry Conway" == Pencillers |
-    "Gerry Conway" == Covers
+    "Gene Colan" == Writers |
+    "Gene Colan" == Pencillers |
+    "Gene Colan" == Covers
   ) |> 
   select(Title) |>
   unique() |>
@@ -1868,11 +1885,9 @@ artists %>%
 
 ## Conclusione - TOP 3
 
-1.  **John Romita Jr.** ha pubblicato, dal 1969 ad oggi, con 24 dei maggiori esponenti, per un totale di 240 albi
-
-2.  **Stan Lee** dal 1941 ha pubblicato con 19 dei maggiori esponenti, per un totale di 250 albi
-
-3.  **Gerry Conway** dal 1971 ha pubblicato con 17 dei maggiori esponenti, per un totale di 122 albi
+1. **Stan Lee** dal 1941 ha pubblicato con 19 dei maggiori esponenti, per un totale di 250 albi
+1. **Jack Kirby** ha pubblicato, dal 1940, con 16 dei maggiori esponenti, per un totale di 160 albi
+3. **Gene Colan** dal 1950 ha pubblicato con 12 dei maggiori esponenti, per un totale di 128 albi
 
 ## Conclusione - Serie più importanti
 
